@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-    int n;
+    int n,i;
     cout<<"Enter a number: ";
     cin>>n;
-    int i=1;
+     i=1;
     while(i<=n){
         if(i%2==0){
         cout<<i<<" ";
